@@ -17,7 +17,7 @@ public class EmitLogDirect {
         factory.setUsername("guest");
         factory.setPassword("guest");
 
-        System.out.println("Escreva um número ou um nome: ");
+        System.out.println("Escreva o seu nome: ");
         Scanner keyboard = new Scanner(System.in);
         String text = keyboard.nextLine();
         String bindingKey = "";
